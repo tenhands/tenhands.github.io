@@ -18,7 +18,22 @@
   max-height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: right;
 }
+
+/*.jumbotron .picture {
+  background-image:url('./thomas_pic_2.png');
+    height: 1200px;
+    width: 490px;
+    background-position: right;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-left: 500px;
+    background-size: contain;
+
+}*/
+
+
 
 .jumbotron .container {
   position: relative;
