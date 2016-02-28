@@ -25,6 +25,18 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+  @media only screen and (max-width: 500px) {
+      .jumbotron {
+          background-image:url('http://s27.postimg.org/p4k5mzrar/unspecified.jpg');
+          height: 625px;
+          min-height: 100vh;
+          max-height: 100%;
+          background-repeat: no-repeat;
+          background-size: cover;
+
+      }
+  }
+
 
 .jumbotron .container {
   position: relative;
