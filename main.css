@@ -1,6 +1,6 @@
 .nav a {
   color: #5a5a5a;
-  font-size: 11px;
+  font-size: 20px;
   font-weight: bold;
   padding: 14px 10px;
   text-transform: uppercase;
@@ -11,39 +11,42 @@
 }
 
 .jumbotron {
-  background-image:url('https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAALIAAAAJDdmMDEwZTg1LWI3ZGEtNDhhYi1hMGI4LTk2NjMyMWFlZjljOA.jpg');
-  height: 500px;
+  background-image:url('http://s27.postimg.org/p4k5mzrar/unspecified.jpg');
+
+  height: 1200px;
+  min-height: 100vh;
+  max-height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .jumbotron .container {
   position: relative;
-  top:100px;
 }
 
 .jumbotron h1 {
-  color: #fff;
-  font-size: 48px;  
+  color: #808080;
+  font-size: 48px;
   font-family: 'Shift', sans-serif;
   font-weight: bold;
 }
 
 .jumbotron p {
   font-size: 20px;
-  color: #fff;
+  color: #8b8b83;
 }
 
-.learn-more {
-  background-color: #f7f7f7;
+
+.project-guides {
+    background-color: #efefef
+    border-bottom: 1px;
+    color: #808080;
+    min-height: 100vh;
+    max-height: 100%;
+
 }
 
-.learn-more h3 {
-  font-family: 'Shift', sans-serif;
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.learn-more a {
-  color: #00b0ff;
+.project-guides p {
+    font-size: 15px;
+    margin-bottom:13px;
 }
