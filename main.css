@@ -30,10 +30,11 @@
   font-size: 18px;
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
+  color: #0d0202;
 
 }
 
-a:visited {
+.jumbotron a:visited {
   color: #5a5a5a;
 }
 
