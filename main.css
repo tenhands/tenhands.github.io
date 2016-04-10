@@ -34,8 +34,11 @@
 
 }
 
-.jumbotron a:link {
-  color: #5a5a5a;
+.jumbotron a:visited {
+  color: orange !important;
+  text-decoration: underline;
+
+
 }
 
 .jumbotron .container {
