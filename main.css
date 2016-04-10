@@ -34,7 +34,7 @@
 
 }
 
-.jumbotron a:visited {
+.jumbotron a:hover {
   color: orange !important;
   text-decoration: underline;
 
